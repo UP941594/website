@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto Slab', serif;
+}
+
+body {
+background-color: #F1F6FF;
+height: 100%
+}
+
+/* Sign up area starts here  */
+
+.top div {
+margin: 10px;
+position: relative;
+padding: 10px 10px 20px 10px;
+border: 1px solid black;
+width: 40%;
+float: right
+}
+
+.top label {
+display: table;
+margin: 10px 5px;;
+font-size: 15px;
+margin-bottom: 0px;
+width: 90%;
+font-weight: bold
+}
+
+.top select {
+display: table;
+font-size: 15px;
+margin: 10px 5px;
+margin-top: 0;
+width: 90%;
+padding: 10px;
+padding-left: 5px
+}
+
+.top div input, span{
+display: table;
+margin: 10px 5px;
+font-size: 15px;
+padding: 10px;
+width: 90%;
+max-width: 60%
+min-width: 50%;
+}
+
+.top div button {
+width: 50%;
+float: right;
+min-width: 40%;
+right: 10%;
+margin: 10px 5px;
+font-size: 15px;
+padding: 10px;
+}
+
+#suggestion {
+display: none;
+cursor: pointer;
+margin: 0;
+font-weight: bold;
+}
+
+#suggest {
+display: none;
+margin: 0;
+padding-top: 0;
+padding-bottom: 0
+}
+
+#warn {
+margin: 0;
+}
+#heading {
+margin: 10px
+}
+/* Sign up area ends here  */
+
+/* nav bar starts here */
+.nav {background-color: #8DCBFB;}
+
+.nav div{
+display: inline-block;
+padding: 10px;
+margin-right: 10px;
+margin-left: 5px;
+border-right: 2px solid white;
+border-left: 2px solid white;
+}
+
+.header a{
+text-decoration: none;
+margin: 10px;
+font-weight: bolder;
+font-size: 20px;
+color: black;
+}
+
+.loginClass {float: right;}
+
+#loginLink {
+margin: 0;
+padding: 0;
+cursor: pointer;
+color: black;
+font-weight: bold;
+font-size: 20px;
+}
+
+#loginLink:hover{color: red;}
+#homeLink:hover {color: red;}
+#groupLink:hover {color: red;}
+/* nav bar ends here */
+
+.loginDiv {
+display: none
+}
+
+/* FILE UPLOAD STARTS HERE */
+.fileUpload {
+display: block;
+padding: 10px;
+}
+
+#uploadFile {
+width: 30%;
+font-size: 20px;
+display: inline-block;
+padding: 10px;
+cursor: pointer;
+border: 1px solid rgba(0,0,0,.125);
+margin: 10px;
+border-radius: 10px;
+outline: none
+}
+
+#uploadFile:hover {background-color: #8DCBFB;}
+
+#fileInput {font-size: 20px; cursor: pointer;}
+
+.options {
+display: inline-block;
+margin: 10px 30px;
+width: 30%;
+}
+
+.options2 {
+display: inline-block;
+margin: 10px 30px;
+width: 30%;
+float: right
+}
+
+.download {
+display: inline-block;
+font-size: 20px;
+font-weight: bold;
+background-color: blue;
+color: white;
+padding: 10px;
+margin: 10px;
+width: 120px;
+cursor: pointer;
+outline: none;
+float: inline-end;
+}
+
+.options label {
+font-size: 15px;
+font-weight: 600;
+}
+
+.options2 label {
+font-size: 15px;
+font-weight: 600;
+}
+
+.yourFiles {
+margin: 0 10px;
+padding: 0 10px;
+}
+
+.sharedFiles {
+margin: 0 10px;
+padding: 0 10px;
+}
+
+.folder {
+display: inline-block;
+border: 1px solid black;
+margin: 10px;
+padding: 5px;
+width: 30%;
+cursor: pointer;
+}
+
+h1 {
+margin: 10px;
+}
+
+.title, .features span {
+border: 1px solid black;
+width: 100%;
+text-align: center;
+padding: 10px;
+background-color: #8DCBFB;
+border: none;
+margin-top: 10px
+}
+
+.name {
+color: blue;
+font-size: 1.5vw;
+font-weight: 600;
+width: 80%;
+display: inline-block;
+padding: 10px 0;
+overflow: hidden;
+cursor: pointer;
+}
+
+#inviteHeading {
+font-size: 20px;
+font-weight: 600;
+width: 80%;
+display: inline-block;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+.total {border-top: none}
+
+.container {
+margin: 5px;
+display: inline-block;
+width: 69%;
+height: 600px;
+}
+
+.iframe {
+width: 100%;
+border: none;
+height: 600px
+}
+
+.mainContainer {width: 100%}
+
+.fileContainer {width: 100;}
+
+.iframeFile {width: 100%}
+
+.features {display: block;}
+
+.features span:hover {background-color: #72C0FC}
+
+/* Shared files css starts here */
+.book {
+display: inline-block;
+margin: 10px;
+width: 30%;
+padding: 10px;
+padding-top: 0;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: 10px;
+min-width: 20%;
+background-color: white;
+}
+
+.topOfBook {
+display: table;
+width: 100%;
+padding: 10px;
+padding-right: 0;
+}
+
+.delete {
+font-weight: bold;
+width: 10%;
+display: inline-block;
+float: right;
+text-align: center;
+padding: 1px 10px 5px;
+margin: 5px;
+font-size: 20px;
+padding-right: 20px;
+border: 1px solid red;
+cursor: pointer;
+}
+
+
+.delete:hover {color: red}
+
+.peerBook {
+display: inline-block;
+margin: 10px;
+width: 30%;
+padding: 10px;
+border: 1px solid rgba(0,0,0,.125);
+cursor: pointer;
+border-radius: 10px;
+background-color: white
+}
+
+.peerBook:hover{background-color: #DBE8F1}
+
+.fileName {
+font-size: 1.5vw;
+color: red;
+font-weight: bold
+}
+
+.by {margin-top: 10px; display: inline-block;}
+
+.time {
+font-size: 15px;
+margin-top: 10px;
+float: right;
+display: inline-block;
+}
+
+/* send feedbacks */
+.listOfFeedbacks {
+display: inline-block;
+margin: 10px;
+max-width: 50%;
+min-width: 20%;
+padding: 10px;
+border: 1px solid rgba(0,0,0,.125);
+cursor: pointer;
+border-radius: 10px;
+}
+
+.feedback {
+font-size: 20px;
+color: red;
+}
+
+.rating {
+font-size: 15px;
+margin-top: 10px;
+display: inline-block;
+}
+
+.sender {
+font-size: 15px;
+margin-top: 10px;
+float: right;
+display: inline-block;
+}
+
+.score {
+display: inline-block;
+padding: 10px;
+border: 1px solid rgba(0,0,0,.125);
+background: white;
+width: 30%;
+position: absolute;
+height: 600px;
+}
+
+.reviews span {
+display: inline-block;
+padding: 1vw;
+margin: 5px 2px;
+border: 1px solid rgba(0,0,0,.125);
+text-align: center;
+width: 15%;
+border-radius: 10px;
+color: blue;
+font-weight: bold;
+font-size: 1.5vw;
+cursor: pointer;
+}
+
+.reviews span:hover{background-color: #72C0FC}
+
+.define {
+display: table;
+padding: 0 18% 0 5%;
+width: 100%;
+}
+
+#feedGood {
+font-size: 1vw;
+display: inline-block;
+float: right;
+font-weight: bold;
+}
+
+#feedBad {
+font-size: 1vw;
+float: left;
+display: inline-block;
+font-weight: bold;
+}
+
+#feedbackText {
+display: inline-block;
+margin: 10px 5px;
+font-size: 15px;
+padding: 10px;
+width: 100%;
+max-width: 100%;
+height: 300px;
+min-height: 100px;
+max-height: 300px;
+}
+
+#sendFeedbacks {
+display: inline-block;
+width: 40%;
+font-size: 1.5vw;
+padding: 10px;
+cursor: pointer;
+background-color: #8DCBFB;
+float: right;
+font-weight: bold;
+border-radius: 10px;
+border: none;
+}
+
+#peerTitle {
+display: inline-block;
+font-size: 20px;
+padding: 20px;
+padding-bottom: 0;
+}
+
+/* create a group */
+
+#createAgroup {
+width: 30%;
+font-size: 20px;
+display: inline-block;
+padding: 10px;
+cursor: pointer;
+border: 1px solid rgba(0,0,0,.125);
+margin: 10px;
+border-radius: 10px;
+outline: none;
+background-color: #72C0FC
+}
+
+.createGroupDetails {
+display: none;
+padding: 10px
+}
+
+.createGroupDetails input {
+display: table;
+margin: 10px 5px;
+font-size: 15px;
+padding: 10px;
+width: 90%;
+max-width: 60%
+min-width: 50%;
+}
+
+.createGroupDetails button {
+width: 30%;
+right: 10%;
+margin: 10px 5px;
+font-size: 15px;
+padding: 10px;
+}
+
+.suggestedMembers, .result {
+display: table;
+font-size: 15px;
+width: 100%;
+max-width: 60%
+min-width: 50%;
+}
+
+.request, .suggested, .suggestedMember {
+display: inline-block;
+margin: 10px;
+width: 30%;
+padding: 10px;
+border: 1px solid rgba(0,0,0,.125);
+cursor: pointer;
+border-radius: 10px;
+min-width: 20%;
+background-color: white
+}
+
+.accept {
+float: left;
+font-size: 20px;
+display: inline-block;
+padding: 10px;
+cursor: pointer;
+border: 1px solid rgba(0,0,0,.125);
+margin: 10px;
+border-radius: 10px;
+outline: none
+}
+
+.reject {
+float: right;
+font-size: 20px;
+display: inline-block;
+padding: 10px;
+cursor: pointer;
+border: 1px solid rgba(0,0,0,.125);
+margin: 10px;
+border-radius: 10px;
+outline: none
+}
+
+.messageBoxTop {display: table;width: 100%}
+
+.mine {
+display: table;
+font-size: 20px;
+margin: 10px;
+float: right;
+border: 1px solid rgba(0,0,0,.125);
+}
+
+.notMine {
+display: table;
+font-size: 20px;
+margin: 10px;
+float: left;
+border: 1px solid rgba(0,0,0,.125);
+}
+
+.fileLoad {
+font-size: 10px;
+display: table;
+margin: 0;
+padding: 0;
+float: right;
+color: green;
+cursor: pointer;
+font-weight: bolder;
+}
+/* create a group ENDS HERE */
+
+
+/* groupMain starts here */
+.groupMain {
+display: block;
+margin: 10px;
+position: relative;
+border: 1px solid;
+height: 500px
+}
+
+.listOfGroups {
+display: inline-block;
+border-right: 1px solid rgba(0,0,0,.125);
+width: 25%;
+height: 100%;
+overflow: auto
+}
+
+.groupPage {
+display: inline-block;
+width: 74%;
+height: 100%;
+overflow-y: auto;
+}
+
+.myGroup {
+font-size: 20px;
+text-align: center;
+padding: 10px 0;
+border-bottom: 1px solid rgba(0,0,0,.125);
+cursor: pointer;
+}
+
+.myGroupName {
+font-size: 20px;
+font-weight: bold;
+padding-left: 10px;
+}
+
+.groupHeading {
+display: table;
+width: 100%;
+height: 9%;
+}
+
+.groupHeading h2{
+display: inline-block;
+text-align: center;
+width: 90%
+}
+
+.more {
+display: inline-block;
+margin: 5px;
+float: right;
+font-size: 15px;
+font-weight: bold;
+padding: 5px;
+}
+
+.inviteMembers {
+display: none;
+padding: 10px;
+position: absolute;
+background-color: #72C0FC;
+width: 75%;
+height: 100%;
+overflow: auto;
+}
+
+.leave {
+font-size: 20px;
+margin: 10px;
+padding: 10px;
+border: none;
+background-color: red;
+border-radius: 10px;
+font-weight: bold;
+bottom: 10%;
+float: right;
+cursor: pointer;
+}
+
+#invite {
+display: table;
+margin: 10px 5px;
+font-size: 15px;
+padding: 10px;
+width: 90%;
+max-width: 60%
+min-width: 50%;
+}
+
+.chatDiv {
+width: 100%;
+height: 80%;
+border: 1px solid rgba(0,0,0,.125);
+overflow-y: scroll;
+background-color: white
+}
+
+.groupChat {
+display: table;
+bottom: 0;
+height: 10%;
+padding: 5px 10px;
+width: 100%;
+}
+
+.messageInput {
+font-size: 15px;
+padding: 5px;
+width: 40%;
+max-width: 60%
+min-width: 50%;
+}
+
+#groupFileInput {
+font-size: 10px;
+cursor: pointer;
+width: 30%;
+margin: 5px 10px;
+
+}
+
+.groupSubmit {
+width: 20%;
+font-size: 15px;
+display: inline-block;
+padding: 10px;
+cursor: pointer;
+border: 1px solid rgba(0,0,0,.125);
+margin: 0 10px;
+border-radius: 10px;
+outline: none;
+background-color: #72C0FC
+}
+
+.sentBy {
+font-size: 10px;
+display: table;
+float: left;
+color: blue;
+margin: 2px;
+width: 100%;
+}
+
+.groupMessage {
+font-size: 20px;
+display: table;
+margin: 10px;
+width: 100%;
+}
+.sendAt {
+font-size: 10px;
+display: table;
+float: right;
+color: red;
+margin: 2px;
+}
+
+.messageBox {padding: 0}
+
+
+
+/* STYLING FOR MOBILE STARTS HERE */
+@media only screen and (max-width: 600px) {
+
+.container, .fileContainer {display: none}
+
+.nav {width: 100%}
+
+.top div {
+padding: 10px 10px 60px 10px;
+width: 95%;
+min-width: 50%;
+}
+
+.top select {
+width: 95%;
+}
+
+.top div input, button, span{
+width: 95%;
+}
+/* Sign up area ends here  */
+
+.name {font-size: 4.5vw}
+
+.fileName {
+font-size: 4.5vw;
+}
+
+.listOfFeedbacks, .book {
+display: inline-block;
+margin: 10px;
+width: 95%;
+min-width: 20%;
+padding: 10px;
+border: 1px solid rgba(0,0,0,.125);
+cursor: pointer;
+border-radius: 10px;
+max-width: 95%
+}
+
+.score {
+width: 100%;
+height: 500px;
+position: relative;
+}
+
+#feedbackText {margin: 0; width: 100%;}
+
+.reviews span {
+padding: 10px;
+font-size: 20px;
+}
+
+#feedGood {font-size: 3vw;}
+#feedBad {font-size: 3vw;}
+#sendFeedbacks {font-size: 3.5vw}
+/* SEND FEEDBACKS ENDS HERE */
+
+#uploadFile {
+width: 40%;
+float: right;
+}
+
+.peerBook {
+width: 95%;
+}
+
+/* GROUP STARTS HERE */
+
+#uploadFile {
+width: 40%;
+float: right;
+}
+
+.peerBook {
+width: 95%;
+}
+
+/* GROUP STARTS HERE */
+
+.listOfGroups {
+display: block;
+width: 100%;
+position: absolute;
+z-index: 100;
+}
+
+.groupPage {
+display: none;
+width: 100%;
+}
+
+.allGroups {
+font-size: 15px;
+width: 10%;
+float: left;
+margin: 10px;
+padding: 5px 0;
+font-weight: 600;
+}
+
+#createAgroup {
+width: 50%;
+}
+
+.groupHeading {
+position: relative;
+}
+
+.groupHeading h2{
+width: 55%;
+margin-top: 10px;
+}
+
+.messageInput {width: 60%;}
+
+#groupFileInput {
+width: 10%;
+}
+
+.groupSubmit {
+padding: 5px;
+margin: 0 0 0 10px;
+}
+
+.inviteMembers {width: 100%; z-index: 1}
+
+.more {
+margin: 10px;
+width: 20%;
+}
+
+.request {width: 100%;}
+.suggest {width: 40%}
+.accept, .reject {width: 40%}

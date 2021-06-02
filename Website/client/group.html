@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="header">
+        <a id="homeLink" href="">Home</a>
+      </div>
+      <div class="header">
+        <a id="groupLink" href="group.html">Groups</a>
+      </div>
+      <div class="loginClass">
+        <p id="loginLink">Log Out</p>
+      </div>
+    </nav>
+
+    <div class="create">
+      <button id="createAgroup" type="button" name="button">Create a group</button>
+      <div class="createGroupDetails">
+        <input id="groupName" type="text" placeholder="Choose group name">
+        <input id="addMembers" type="text" placeholder="Find member">
+
+        <div class="result"></div>
+        <div class="suggestedMembers"></div>
+        <button  id="create" type="button" name="button">Create</button>
+      </div>
+    </div>
+
+    <h2>My Groups</h2>
+    <div class="groupMain">
+      <div class="listOfGroups">
+      </div>
+      <div class="groupPage">
+      </div>
+    </div>
+
+    <script src="src/group.js" type="module"></script>
+  </body>
+</html>

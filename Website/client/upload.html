@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <nav class="nav">
+      <div class="header">
+        <a id="homeLink" href="user.html">Home</a>
+      </div>
+      <div class="header">
+        <a id="groupLink" href="group.html">Groups</a>
+      </div>
+      <div class="loginClass">
+        <p id="loginLink">Log Out</p>
+      </div>
+    </nav>
+
+    <h1 id="welcome"></h1>
+    <div class="fileUpload">
+    <input id="fileInput" type="file" name="file" multiple />
+    <input type="submit" id="uploadFile" name="button" value="Submit" />
+    <span id="warn"></span>
+    </div>
+
+      <h2 class="title" >Your Files</h2>
+
+      <div class="BothOptions">
+        <div class="options">
+          <label for="show">Show :</label>
+          <select class="show" name="options">
+            <option value="All" selected>All</option>
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+
+        <div class="options2">
+          <label for="sort">Sort :</label>
+          <select class="sort" name="options2">
+            <option value="date" selected>Date</option>
+            <option value="reverse">Reverse</option>
+            <option value="name">Name</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="yourFiles">
+      </div>
+
+      <h2 class="title" >Shared Files</h2>
+      <div class="sharedFiles">
+      </div>
+
+      <h2 class="title" >Notifications</h2>
+      <div class="notifications">
+      </div>
+
+    <script src="src/upload.js" charset="utf-8" type="module"></script>
+  </body>
+</html>

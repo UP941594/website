@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer File</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <nav class="nav">
+        <div class="header">
+          <a id="homeLink" href="">Home</a>
+        </div>
+        <div class="header">
+          <a id="groupLink" href="group.html">Groups</a>
+        </div>
+        <div class="loginClass">
+          <p id="loginLink">Log Out</p>
+        </div>
+    </nav>
+    <div class="topOfTitle">
+      <p id="peerTitle"></p>
+      <a class="download" href="" download>Download</a>
+    </div>
+
+    <div class="PeerFileDiv">
+      <div class="container">
+        <iframe class="iframe" width="400px" height="400px" loadMobile=true></iframe>
+      </div>
+
+      <div class="score">
+        <div class="reviews">
+          <h2>Rate this work</h2>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+        </div>
+        <div class="define">
+          <p id="feedBad">Bad</p>
+          <p id="feedGood">Good</p>
+        </div>
+        <div class="sendFeedbacks">
+          <textarea id="feedbackText" type="text" name="name" rows="8" cols="80" placeholder="Enter Feedback"></textarea>
+          <button id="sendFeedbacks" type="button" name="button">Send Feedback</button>
+        </div>
+        <div class="warn">
+        </div>
+      </div>
+    </div>
+
+    <div class="features">
+      <span id="feedbacks">Feedbacks & Reviews</span>
+      <div class="feedbacksHeading">
+      </div>
+    </div>
+
+    <script src="src/peerFile.js" type="module" charset="utf-8"></script>
+  </body>
+</html>

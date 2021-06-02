@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Testing Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <nav class="nav">
+      <div class="header">
+        <a id="homeLink" href="">Home</a>
+      </div>
+      <div class="loginClass">
+        <p id="loginLink"> Login </p>
+      </div>
+    </nav>
+
+    <div class="top">
+      <div class="main">
+        <h2 id="heading">Sign Up</h2>
+        <hr>
+
+        <label for="university">Choose a university:</label>
+        <select class="selectUni" name="university">
+          <option value="University of Portsmouth">University of Portsmouth</option>
+          <option value="University of Southampton">University of Southampton</option>
+          <option value="University of Winchester">University of Winchester</option>
+          <option value="University of Cambridge">University of Cambridge</option>
+          <option value="University of Oxford">University of Oxford</option>
+          <option value="Durham University">Durham University</option>
+          <option value="Lancaster University">Lancaster University</option>
+          <option value="University of Bath">University of Bath</option>
+          <option value="University of Warwick">University of Warwick</option>
+          <option value="University of Birmingham">University of Birmingham</option>
+          <option value="University of Bristol">University of Bristol</option>
+          <option value="University of Edinburgh">University of Edinburgh</option>
+        </select>
+
+        <label for="course">Choose a course:</label>
+        <select class="selectCourse" name="cars">
+          <option value="Computer Science">Computer Science</option>
+          <option value="Software Engineering">Software Engineering</option>
+          <option value="Business Management">Business Management</option>
+          <option value="Psychology">Psychology</option>
+          <option value="Nursing">Nursing</option>
+          <option value="Law">Law</option>
+          <option value="Design Studies">Design Studies</option>
+          <option value="Preclinical Medicine">Preclinical Medicine</option>
+          <option value="Sports & Exercise Science">Sports & Exercise Science</option>
+          <option value="Subjects Allied to Medicine">Subjects Allied to Medicine</option>
+        </select>
+
+        <input id="name" type="text" placeholder="Full name">
+        <span id="suggest">Use suggested username:</span>
+        <span id="suggestion"> </span>
+        <input id="username" type="text" placeholder="Username">
+        <span id="warn"></span>
+
+        <button id="submit"type="button">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- LOG IN Div-->
+    <div class="loginDiv">
+
+      <h2 id="heading">Log in</h2>
+      <input id="usernameLOG" type="text" placeholder="Username">
+
+      <label for="university">Choose a university:</label>
+      <select class="selectUniLOG" name="university">
+        <option value="University of Portsmouth">University of Portsmouth</option>
+        <option value="University of Southampton">University of Southampton</option>
+        <option value="University of Winchester">University of Winchester</option>
+      </select>
+
+      <label for="course">Choose a course:</label>
+      <select class="selectCourseLOG" name="cars">
+        <option value="Computer Science">Computer Science</option>
+        <option value="Software Engineering">Software Engineering</option>
+        <option value="Business Management">Business Management</option>
+      </select>
+
+      <span id="warnLOG"></span>
+      <button id="submitLOG"type="button">Log in</button>
+    </div>
+
+    <script src="src/index.js" type="module" charset="utf-8"></script>
+  </body>
+</html>
