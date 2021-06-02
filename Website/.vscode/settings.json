@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1b8f4f4a-0be5-413d-85b4-025ac9f1e266/resourceGroups/PeerReview/providers/Microsoft.Web/sites/peerreview",
+    "appService.deploySubpath": "."
+}
